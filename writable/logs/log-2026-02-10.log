@@ -1,0 +1,12 @@
+CRITICAL - 2026-02-10 02:28:08 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "kiosko/builder.php"
+[Method: GET, Route: kiosko]
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(214): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('kiosko/builder.php')
+ 2 SYSTEMPATH\Common.php(1199): CodeIgniter\View\View->render('kiosko/builder', [], true)
+ 3 APPPATH\Controllers\Kiosko.php(50): view('kiosko/builder', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Kiosko->index()
+ 5 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kiosko))
+ 6 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
